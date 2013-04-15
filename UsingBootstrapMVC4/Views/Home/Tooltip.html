@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <a href="#" class="link" data-original-title="first tooltip">Hover me for a tooltip</a>
+
+      <script>
+          $(function () {
+              $('.link').tooltip({
+                  //twitter.github.io/bootstrap/javascript.html#tooltips
+                  placement: 'right', //bottom, top, left
+                  trigger:'click' //hover, focus, manual
+              });
+          });
+      </script>
+  </body>
+</html>

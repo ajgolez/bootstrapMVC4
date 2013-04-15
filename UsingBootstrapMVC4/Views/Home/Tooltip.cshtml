@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Tooltip";
+}
+
+<h2>Tooltip</h2>
+<br/>
+        <a href="#" class="link" data-original-title="first tooltip">Hover me for a tooltip</a>
+
+      <script>
+          $(function () {
+              $('.link').tooltip({
+                  //twitter.github.io/bootstrap/javascript.html#tooltips
+                  placement: 'right', //bottom, top, left
+                  trigger: 'click' //hover, focus, manual
+              });
+          });
+      </script>

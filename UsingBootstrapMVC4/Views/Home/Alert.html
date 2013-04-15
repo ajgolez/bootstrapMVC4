@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+    <body style="padding: 20px">
+        <br/>
+        <div class="alert alert-error">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Warning!</strong> Best check yo self, you're not looking too good.
+        </div>
+        
+        <a class="alert" data-dismiss="alert" href="#">Sample alert</a>
+
+        <script>
+            $(function () {
+                $(".alert").alert();
+            });
+        </script>
+    </body>
+</html>

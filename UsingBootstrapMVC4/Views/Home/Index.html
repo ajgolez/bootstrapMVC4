@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>test</title>
+   
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
+    
+     <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <a href="#" id="element" data-toggle="tooltip" title="first tooltip" >hover over me</a>
+    <p class="text-error">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+    <a class="alert" data-dismiss="alert" href="#">This is a alert.</a>
+    <button type="button" class="btn btn-large btn-primary disabled" disabled="disabled">Primary button</button>
+    
+    <div class="alert alert-error">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+    </div>
+    
+    <!--<a href="#" class="alert" data-dismiss="alert"><strong>Warning!</strong> Best check yo self, you're not looking too good.
+    </a>-->
+    
+    <a href="#" class="link" data-original-title="first tooltip">Hover me for a tooltip</a>
+
+    <script>
+
+        $(function () {
+            $('.link').tooltip();
+            
+            //tooltip
+            $('#element').tooltip();
+            $(".alert").alert();
+        });
+</script>
+</body>
+</html>

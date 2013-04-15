@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingBootstrapMVC4", "UsingBootstrapMVC4\UsingBootstrapMVC4.csproj", "{B1D182B7-425F-4ED5-8892-3C678F47EBCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D182B7-425F-4ED5-8892-3C678F47EBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D182B7-425F-4ED5-8892-3C678F47EBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D182B7-425F-4ED5-8892-3C678F47EBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D182B7-425F-4ED5-8892-3C678F47EBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
